@@ -1,12 +1,18 @@
 Project flight {
   database_type: 'MS SQL Server'
   Note: '''
+  # Purpose
+
   The `flight` database was designed to be a sandbox for practicing SQL queries. It simulates a small airline servicing various routes between airports and assigning crew to the airplane for each flight.
 
-  It can be set up entirely by accessing [the repository at this link](https://github.com/link-leocorde/flight) and executing the `.sql` files therein.
+  // Its built with a variety of views to demonstrate how data is organized, as well as procedures that can help simulate new activity.
+
+  Access the DDL & DML to create this database and populate it with data using [the repository at this link](https://github.com/link-leocorde/flight) and executing the `.sql` files therein.
   ```
   git clone https://github.com/link-leocorde/flight.git
   ```
+
+  Find more example databases at [https://leocorde.me/db](leocorde.me)
   '''
 }
 
